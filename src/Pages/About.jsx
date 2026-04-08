@@ -18,7 +18,7 @@ const About = () => {
 
         <div className='md:w-1/2'>
           <img
-            className='w-full h-[300px] object-cover rounded-xl'
+            className='w-full h-[300px] bg-cover bg-center rounded-xl'
             src="https://images.unsplash.com/photo-1607082349566-187342175e2f"
             alt=""
           />
@@ -50,7 +50,7 @@ const About = () => {
         
         <div className='md:w-1/2'>
           <img
-            className='w-full h-[300px] object-cover rounded-xl'
+            className='w-full h-[300px] bg-contain bg-center rounded-xl'
             src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d"
             alt=""
           />
